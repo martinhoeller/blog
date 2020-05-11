@@ -36,7 +36,7 @@ Affinity Designer does a great job with all of these tasks and is my go-to tool 
 
 OmniFocus is where I organize all my tasks. It is an extremely flexible tool that lets you freely create your own organizational structure. Create projects, task and sub-tasks as detailed as you need. You can also assign "contexts" to each item. For example, I use contexts to track user requests or bug reports for my apps.
 
-OmniFocus is my general idea dump and project outlining app. Whenever a new idea or a ToDo comes to my mind I put it into OmniFocus for later review and more detailed planning.
+OmniFocus is my general idea dump and project outlining app. Whenever a new idea or a to-do comes to my mind I put it into OmniFocus for later review and more detailed planning.
 
 **Website:** [https://www.omnigroup.com/omnifocus](https://www.omnigroup.com/omnifocus)<br>
 **Price:** $99.99 USD on time or $9.99 USD / month subscription
