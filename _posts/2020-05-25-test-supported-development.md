@@ -24,11 +24,11 @@ Or put into words:
 - If the data is synced, actually log out the user. Otherwise first sync the data and then perform the logout.
 - Finally, return to the profile screen.
 
-What at first seems to be the simple task of logging out a user quickly becomes a complex piece of logic involving the UI and the backend. "Traditionally" one might be tempted to implement this in the profile view controller, which is exactly what causes **M**assive **V**iew **C**ontrollers which are impossible to test.
+What at first seems to be the simple task of logging out a user quickly becomes a complex piece of logic involving the UI and the backend. "Traditionally" one might be tempted to implement this in the profile view controller. This is exactly what causes **M**assive **V**iew **C**ontrollers which are impossible to test.
 
 ## Logout Use Case Class
 
-Instead, I like to completely separate the business logic from any dependency on UI or other parts of the codebase. Usually I do this by implementing a use case class and thinking how the public interface for this use case should look like. A use case class does only one specific thing and has as few implicit dependencies as possible (ideally none).
+Instead, I like to completely separate the business logic from any dependency on UI or other parts of the codebase. Usually I do this by implementing a use case class and thinking about how the public interface for this use case should look like. A use case class does only one specific thing and has as few implicit dependencies as possible (ideally none).
 
 ### Public Interface
 I usually start by looking at the problem from a caller's point of view. How would I like to use this new API? We want to implement a use case that logs out the user. This will involve a backend request to delete the access token, so it is probably going to be asynchronous. So let's start with this:
@@ -156,7 +156,7 @@ class LogoutUseCase {
 2. Instead of the generic `Error` type we now return our concrete `LogoutError`.
 3. `showConfirmationDialog()`'s completion handler returns a `Bool` indicating whether the user confirmed or not. If they declined we call `logout()`'s completion handler with `false` and the appropriate error case.
 
-Again one more testable logic!
+Again one more testable piece of logic!
 
 {% highlight swift %}
 class LogoutUseCaseTests: XCTestCase {
