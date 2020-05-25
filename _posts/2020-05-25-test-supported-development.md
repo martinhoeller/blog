@@ -182,7 +182,7 @@ class MockLogoutConfirmationPresenter: LogoutConfirmationPresenting {
 }
 {% endhighlight %}
 
-1. We add a new test that check if the correct error case is returned when the user cancels the confirmation dialog.
+1. We add a new test that checks if the correct error case is returned when the user cancels the confirmation dialog.
 Now we need to control how the logout should behave in order to check the result. Therefore the mock got a new stub variable, defining the returned value of `showConfirmationDialog()`. In this case we want to simulate the user pressing the "Cancel" button, so `stubShouldLogOut = false`.
 
 2. In the completion handler we assert if indeed the expected error was returned.
