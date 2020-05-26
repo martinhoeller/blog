@@ -1,9 +1,8 @@
 ---
 title:  "Test Supported Development"
-date:   2020-05-25 10:00:00 +0200
+date:   2020-05-26 10:00:00 +0200
 categories: Development
 tags: swift ios testing
-hidden: true
 ---
 
 As developers we often need to implement complex workflows. Test-driven development is a good way to develop that business logic in a safe way, but often I find its process a bit too dogmatic. My way of coding is sometimes more exploratory and it feels tedious to write all the unit tests before, run them, see them fail, code, rinse and repeat… In this post I present my take on writing complex business logic code with 100% unit test coverage, which I call *Test Supported Development*.
