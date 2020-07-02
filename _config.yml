@@ -34,6 +34,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-seo-tag
 
 paginate: 5
 sidebar_home_link: true
