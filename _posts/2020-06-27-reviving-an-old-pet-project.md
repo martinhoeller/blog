@@ -1,7 +1,7 @@
 ---
 title:  "Reviving an old Pet Project"
 date:   2020-06-27 10:00:00 +0200
-categories: Development
+categories: Boing
 tags: game-development creative-coding
 ---
 

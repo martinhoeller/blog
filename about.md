@@ -3,7 +3,7 @@ layout: page
 title: About Me
 permalink: /about/
 sidebar_link: true
-sidebar_sort_order: 3
+sidebar_sort_order: 99
 ---
 
 <img src="../assets/profile.png">
