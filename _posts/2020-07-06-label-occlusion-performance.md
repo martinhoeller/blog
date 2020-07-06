@@ -4,7 +4,6 @@ date:   2020-07-06 08:00:00 +0200
 categories: Development
 tags: swift ios algorithms
 image: ../assets/images/non_overlapping_labels.png
-hidden: true
 ---
 
 In my current project I am working on a custom map view that needs to display hundreds of labels on the screen. The map view can be zoomed which means that the labels will overlap each other. To avoid that overlapping I implemented an algorithm that hides occluded labels with lower priority. In this article I will describe how I fixed a sluggish zooming experience by improving the runtime complexity of the algorithm from *O(n²)* to *O(n log n)*.
