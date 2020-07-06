@@ -174,7 +174,7 @@ line sweep: 0.007596015930175781s
 line sweep: 0.007715940475463867s
 ```
 
-Sweet! Instead of 0.1s it now takes roughly 0.08s to run the algorithm. We successfully reduced the runtime by one order of magnitude and then some. Zooming on the map is smooth as butter again.
+Sweet! Instead of 0.1s it now takes roughly 0.008s to run the algorithm. We successfully reduced the runtime by one order of magnitude and then some. Zooming on the map is smooth as butter again.
 
 Let me know what you think. You can contact me either via <a href="https://twitter.com/{{site.twitter_username}}"
     target="_blank">Twitter</a> or [email](mailto:{{site.email}}).
