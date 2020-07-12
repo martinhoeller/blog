@@ -1,5 +1,5 @@
 ---
-title:  "Objects and Actions"
+title:  "Nodes and Actions"
 date:   2020-07-12 10:00:00 +0200
 categories: Boing
 tags: lua love2d game-development creative-coding boing
